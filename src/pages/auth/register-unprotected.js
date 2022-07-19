@@ -11,7 +11,7 @@ import useResponsive from '../../hooks/useResponsive';
 import { PATH_AUTH } from '../../routes/paths';
 // components
 import Page from '../../components/Page';
-import Logo from '../../components/Logo';
+import Logo from '../../cozzmponents/Logo';
 import Image from '../../components/Image';
 // sections
 import { RegisterForm } from '../../sections/auth/register';
@@ -70,8 +70,8 @@ export default function Register() {
   return (
     <Page title="Register">
       <RootStyle>
-        {/* <HeaderStyle> */}
-          <Logo />
+        <HeaderStyle>
+          {/* <Logo /> */}
           {smUp && (
             <Typography variant="body2" sx={{ mt: { md: -2 } }}>
               Already have an account? {''}
