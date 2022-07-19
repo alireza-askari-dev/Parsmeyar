@@ -11,7 +11,7 @@ import useResponsive from '../../hooks/useResponsive';
 import { PATH_AUTH } from '../../routes/paths';
 // components
 import Page from '../../components/Page';
-import Logo from '../../cozzmponents/Logo';
+// import Logo from '../../cozzmponents/Logo';
 import Image from '../../components/Image';
 // sections
 import { RegisterForm } from '../../sections/auth/register';
